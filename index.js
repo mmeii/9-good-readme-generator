@@ -69,3 +69,13 @@ const promptUser = () =>
             message: 'What is your email address?',
         },
     ]);
+
+const generateReadme = (responses) =>
+    `
+    `;
+
+promptUser()
+    .then((responses) => writeFileAsync('README.md',
+        generateReadme(responses)))
+    .then(() => console.log('Successfully wrote to README.md'))
+    .catch((err) => console.error(err));
