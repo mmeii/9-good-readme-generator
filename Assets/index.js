@@ -17,60 +17,90 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
 const questions = [
     {
         type: 'input',
-        name: 'project',
-        message: 'What is your project title?'
+        name: 'title',
+        message: 'What is your project title?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
     {
         type: 'input',
         name: 'description',
         message: 'What is the description of your project?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
     {
         type: 'input',
         name: 'installation',
         message: 'Enter instructions for installation',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
     {
         type: 'input',
         name: 'usage',
         message: 'What is the usage information?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
     {
         type: 'input',
         name: 'contribution',
         message: 'Is there any contribution you would like to add?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
     {
         type: 'input',
         name: 'test',
         message: 'Any test to include?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
     {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project?',
-        choices: ["MIT", "Microsoft Public License", "ISC", "GNU GPLv3"]
+        choices: ["MIT", "ISC", "GNU GPLv3"],
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
     {
         type: 'input',
         name: 'github',
         message: 'What is your GitHub username?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
     {
         type: 'input',
         name: 'email',
         message: 'What is your email address?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your project title.' }
+        },
     },
 ];
 
 // function to write README file
-// function writeToFile('README.md', data) {
-// }
+function writeToFile(fileName, data) {
+
+}
+
 
 // function to initialize program
 function init() {
