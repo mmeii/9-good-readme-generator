@@ -1,10 +1,10 @@
 
   # Good Readme Generator
-  ![License Badge](https://img.shields.io/github/license/mmeii/Good Readme Generator)
+  ![License Badge](https://img.shields.io/github/license/mmeii/9-good-readme-generator)
 
   ## Description
 
-  Help create readme using a template
+  A readme generator
 
   ## Table of Contents
 
@@ -17,27 +17,29 @@
 
   ## Installation
 
-  npm install
+  clone and npm install
 
   ## Usage
 
-  all rights reserved
+  Free to use
 
   ## Contribution
 
-  no
+  Sole author
 
   ## Tests
 
-  no
+  template used
 
   ## Questions
 
   mmeii
-  redmmeii@gmail.com
+  
+  * Any feedback or questions, feel free to [send an email](mailto:redmmeii@gmail.com)
 
   ## License
 
   Copyright (c) mmeii. All rights reserved.
+  
   Licensed under the MIT license.
   

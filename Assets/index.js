@@ -17,6 +17,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const emailValidator = require('email-validator');
+
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
@@ -99,9 +101,11 @@ const questions = [
         name: 'email',
         message: 'What is your email address?',
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your email.' }
+            if (emailValidator.validate(value)) {
+                return true
+            } else { return 'Please enter a valid email address' }
         },
-    },
+    }
 ];
 
 // function to write README file
