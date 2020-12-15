@@ -4,7 +4,7 @@
 
   ## Description
 
-  A readme generator with questions and autogenerate
+  a good readme generator
 
   ## Table of Contents
 
@@ -21,25 +21,25 @@
 
   ## Usage
 
-  npm install
+  command line application
 
   ## Contribution
 
-  Feel free to contribute
+  n/a
 
   ## Tests
 
-  tests
+  n/a
 
   ## Questions
 
   * Checkout my [GitHub profile](https://github.com/mmeii)
   
-  * Any additional questions or feed back, feel free to [send an email](mailto:mei@tu.com). 
+  * Any additional questions or feed back, feel free to [send an email](mailto:meitu@meitu.com). 
 
   ## License
 
-  Copyright (c) mmeii. All rights reserved.
+  Copyright (c) [mmeii](https://github.com/mmeii). All rights reserved.
   
   Licensed under the MIT license.
   
