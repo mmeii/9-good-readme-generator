@@ -34,7 +34,7 @@ const questions = [
         name: 'description',
         message: 'What is the description of your project?',
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your project title.' }
+            if (value) { return true } else { return 'Please enter description.' }
         },
     },
     {
@@ -42,7 +42,7 @@ const questions = [
         name: 'installation',
         message: 'Enter instructions for installation',
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your project title.' }
+            if (value) { return true } else { return 'Please enter instructions.' }
         },
     },
     {
@@ -50,23 +50,23 @@ const questions = [
         name: 'usage',
         message: 'What is the usage information?',
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your project title.' }
+            if (value) { return true } else { return 'Please enter usage information.' }
         },
     },
     {
         type: 'input',
         name: 'contribution',
-        message: 'Is there any contribution you would like to add?',
+        message: 'What are contribution guidelines?',
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your project title.' }
+            if (value) { return true } else { return 'Please enter your contribution guidelines.' }
         },
     },
     {
         type: 'input',
         name: 'test',
-        message: 'Any test to include?',
+        message: 'What are the test instructions?',
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your project title.' }
+            if (value) { return true } else { return 'Please enter your test instructions.' }
         },
     },
     {
@@ -75,7 +75,7 @@ const questions = [
         message: 'Choose a license for your project?',
         choices: ["MIT", "ISC", "GNU GPLv3"],
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your project title.' }
+            if (value) { return true } else { return 'Please choose a license.' }
         },
     },
     {
@@ -83,7 +83,7 @@ const questions = [
         name: 'github',
         message: 'What is your GitHub username?',
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your project title.' }
+            if (value) { return true } else { return 'Please enter your username.' }
         },
     },
     {
@@ -91,7 +91,7 @@ const questions = [
         name: 'email',
         message: 'What is your email address?',
         validate: (value) => {
-            if (value) { return true } else { return 'Please enter your project title.' }
+            if (value) { return true } else { return 'Please enter your email.' }
         },
     },
 ];

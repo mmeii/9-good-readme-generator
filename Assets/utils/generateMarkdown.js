@@ -41,6 +41,7 @@ function generateMarkdown(data) {
   ## License
 
   Copyright (c) ${data.github}. All rights reserved.
+  
   Licensed under the ${data.license} license.
   
 `;
