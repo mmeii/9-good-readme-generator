@@ -31,6 +31,14 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'repo',
+        message: 'What is the repository name of your project?',
+        validate: (value) => {
+            if (value) { return true } else { return 'Please enter your repository name.' }
+        },
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'What is the description of your project?',
         validate: (value) => {
