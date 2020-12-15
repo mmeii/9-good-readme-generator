@@ -4,7 +4,7 @@
 
   ## Description
 
-  A readme generator
+  A readme generator with questions and autogenerate
 
   ## Table of Contents
 
@@ -17,25 +17,25 @@
 
   ## Installation
 
-  clone and npm install
+  npm install
 
   ## Usage
 
-  Free to use
+  npm install
 
   ## Contribution
 
-  Sole author
+  Feel free to contribute
 
   ## Tests
 
-  template used
+  tests
 
   ## Questions
 
-  mmeii
+  * Checkout my [GitHub profile](https://github.com/mmeii)
   
-  * Any feedback or questions, feel free to [send an email](mailto:redmmeii@gmail.com)
+  * Any additional questions or feed back, feel free to [send an email](mailto:mei@tu.com). 
 
   ## License
 
