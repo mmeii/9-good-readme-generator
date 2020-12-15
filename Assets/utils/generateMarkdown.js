@@ -11,16 +11,29 @@ function generateMarkdown(data) {
 
   ## Installation
 
+  ${data.installation}
+
   ## Usage
+
+  ${data.usage}
 
   ## License
 
+  ${data.license}
+
   ## Contribution
+
+  ${data.contribution}
 
   ## Tests
 
+  ${data.test}
+
   ## Questions
-  
+
+  ${data.github}
+  ${data.email}
+
 `;
 }
 
