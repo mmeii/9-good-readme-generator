@@ -105,30 +105,14 @@ function writeToFile(fileName, data) {
             console.log('README file successfully created!');
         }
     })
-}
-
+};
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions).then(function (data) {
+        writeToFile("README.md", generateMarkdown(data));
+    })
 }
 
 // function call to initialize program
 init();
-
-// const writeFileAsync = util.promisify(fs.writeFile);
-
-// const promptUser = () =>
-//     inquirer.prompt([
-
-//     ]);
-
-// const generateReadme = (responses) =>
-//     `
-//     `;
-
-// promptUser()
-//     .then((responses) => writeFileAsync('README.md',
-//         generateReadme(responses)))
-//     .then(() => console.log('Successfully wrote to README.md'))
-//     .catch((err) => console.error(err));
