@@ -10,6 +10,13 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [License](#license)
+
   ## Installation
 
   ${data.installation}
@@ -17,10 +24,6 @@ function generateMarkdown(data) {
   ## Usage
 
   ${data.usage}
-
-  ## License
-
-  ${data.license}
 
   ## Contribution
 
@@ -34,6 +37,12 @@ function generateMarkdown(data) {
 
   ${data.github}
   ${data.email}
+
+  ## License
+
+  Copyright (c) ${data.github}. All rights reserved.
+  Licensed under the ${data.license} license.
+  
 `;
 }
 
