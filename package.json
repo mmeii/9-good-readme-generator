@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "![License Badge](https://img.shields.io/github/license/mmeii/9-good-readme-generator)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,15 @@
   "dependencies": {
     "email-validator": "^2.0.4",
     "inquirer": "^6.5.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmeii/9-good-readme-generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mmeii/9-good-readme-generator/issues"
+  },
+  "homepage": "https://github.com/mmeii/9-good-readme-generator#readme"
 }
